@@ -153,8 +153,6 @@ ul {
   color: var(--main-text-color);
 
   display: flex;
-  /*padding-top: 32px;
-  padding-bottom: 32px;*/
   margin-left: auto;
   margin-right: 40px;
 }
@@ -503,6 +501,65 @@ footer {
 
 .foot-and-injoy {
   display: flex;
+}
+
+.injoy-mailing {
+  margin-left: 103px;
+  margin-top: 12px;
+}
+.injoy-text-mailing-form {
+  display: flex;
+}
+
+.injoy-mailing-input-class {
+  height: 50px;
+  width: 358px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--main-text-color);
+  padding: 16px 15px;
+  color: var(--main-text-color);
+  margin-right: 12px;
+}
+.injoy-mailing-input-class::placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.injoy-mailing-button {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--light-text-color);
+  background-color: var(--second-color);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 200px;
+  position: relative;
+}
+/**.injoy-mailing-button::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icon-send.svg);
+}*/
+.injoy-mailing-icon {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icon-send.svg);
+  right: 10px;
 }
 
 /*******************************Портфолио**********************************/
