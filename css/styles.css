@@ -545,6 +545,7 @@ footer {
   display: inline-flex;
   min-width: 200px;
   position: relative;
+  border: none;
 }
 .injoy-mailing-button > .injoy-mailing-icon {
   width: 24px;
@@ -722,10 +723,13 @@ footer {
 .close {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: unset;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   position: absolute;
-  top: 14px;
-  right: 14px;
+
+  top: 8px;
+  right: 8px;
 
   transition-property: fill, border-color;
   transition-duration: var(--timing);
@@ -747,6 +751,7 @@ footer {
   display: block;
   position: relative;
   content: "";
+  margin-top: 4px;
 }
 
 .modal-form-field {
@@ -763,7 +768,7 @@ footer {
 }
 .modal-form-field-policy {
   display: block;
-  padding-bottom: 10px;
+  margin-bottom: 30px;
 
   font-weight: normal;
   font-size: 14px;
@@ -772,6 +777,8 @@ footer {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
+  margin-top: 20px;
+  margin-left: 13px;
 }
 
 .modal-form-input {
@@ -831,11 +838,23 @@ footer {
   position: relative;
 }
 .btn {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(50%, 50%);
-  margin-top: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--light-text-color);
+  background-color: var(--second-color);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: block;
+  min-width: 200px;
+  margin: 0 auto;
+  border: none;
 }
 
 .modal-form-input-wrapper:hover > .modal-form-input,
@@ -882,4 +901,14 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   border: none;
+}
+.policy-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+
+  color: var(--second-color);
 }
